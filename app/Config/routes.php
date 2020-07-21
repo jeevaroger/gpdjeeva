@@ -33,63 +33,8 @@ Router::connect('/about_us', array('controller' => 'StaticPages', 'action' => 'a
 Router::connect('/', array('controller' => 'Authorizations', 'action' => 'index', 'home'));
 Router::connect('/pages', array('controller' => 'pages', 'action' => 'display'));
 
-/**
- * Routing for UserMastersController
- */
-Router::connect('/user', array('controller' => 'UserMasters', 'action' => 'index'));
 
-/**
- * Routing for country-selector
- */
-Router::connect('/home', array('controller' => 'Dashboards', 'action' => 'marketSelector'));
-
-
-/**
- * Routing for AuditLogsController
- */
-Router::connect('/audit-log', array('controller' => 'AuditLogs', 'action' => 'index'));
-Router::connect('/audit-log/page/*', array('controller' => 'AuditLogs', 'action' => 'index'));
-
-/**
- * Routing for AuditLogsController
- */
-Router::connect('/audit-log/detail', array('controller' => 'AuditLogs', 'action' => 'detail'));
-
-Router::connect('/audit-log/get-filtered-summary', array('controller' => 'AuditLogs', 'action' => 'getFilteredSummaryData'));
-
-
-/**
- * ...and connect the rest of 'Pages' controller's URLs.
- */
-Router::connect('/dashboard/detail', array('controller' => 'dashboards', 'action' => 'index', 'dashboard_detail'));
-
-Router::connect('/glossary', array('controller' => 'StaticPages', 'action' => 'glossary'));
-
-
-Router::connect('/dashboard/summary', array('controller' => 'dashboards', 'action' => 'summary', 'dashboard_summary'));
-
-Router::connect('/dashboard/print', array('controller' => 'dashboards', 'action' => 'exportPdf', 'dashboard_print'));
-
-Router::connect('/dashboard/export_pdf', array('controller' => 'dashboards', 'action' => 'exportPdf', 'dashboard_export_pdf'));
-
-Router::connect('/dashboard/export_excel', array('controller' => 'dashboards', 'action' => 'exportExcel', 'dashboard_export_excel'));
-
-Router::connect('/dashboard/edit', array('controller' => 'dashboards', 'action' => 'edit', 'dashboard_edit'));
-
-Router::connect('/dashboard/aggregate_summary', array('controller' => 'dashboards', 'action' => 'aggregateSummary', 'dashboard_aggregate_summary'));
-
-Router::connect('/upload', array('controller' => 'DataImporter','action' => 'upload', 'upload'));
-
-Router::connect('/user_mgmt/*', array('controller' => 'UserManagements', 'user_mgmt'));
-
-/**
- * Routing for UserMastersController action
- */
-Router::connect('/user/:action/*', array('controller' => 'UserMasters'));
-
-/**
- * Routing for AuthorizationsController action
- */
+ 
 Router::connect('/auth/:action/*', array('controller' => 'Authorizations'));
 
 /**
@@ -105,4 +50,3 @@ CakePlugin::routes();
 require CAKE . 'Config' . DS . 'routes.php';
 
 
-Router::connect('/dashboard/pdf', array('controller' => 'dashboards', 'action' => 'exportPdf', 'dashboard_export_pdf'));
