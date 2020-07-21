@@ -1,0 +1,436 @@
+.a body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85rem;
+  color: #777;
+  background-color: #f5f5f5;
+}
+
+/*css to fix footer to the bottom for short content*/
+
+html, body {height: 100%; padding: 0; margin: 0; }
+body { display: table; width: 100%; height: 100%; }
+header, footer, .content { display: table-row; }
+header, footer { height: 1px; }
+.content { height: auto; }
+
+/*css to fix footer to the bottom for short content*/
+
+.a.landing body {
+  background: #f40009 url(../images/coca-cola-wave-bg.png) no-repeat left bottom fixed; 
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto ;
+}
+.a .text-danger {
+  color: #f40009 !important;
+}
+.a .bg-white {
+	background-color: #fff;
+	-webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.15);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,.15);
+}
+.bg-coke {
+  background-color: #f40009;
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.15);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,.15);
+}
+
+.landing-links a {
+  color: #fff;
+  padding: 4rem 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.landing-links p {
+  color: #000;
+  text-shadow: 0 0 2px #8C8C8C;
+  margin-top: 1rem;
+}
+.a h1,
+.a h2,
+.a h3,
+.a h4,
+.a h5 {
+  color: #000;
+  font-weight: 300;
+}
+.a h1 {
+  font-size: 1.75rem;
+}
+.a h2 {
+  font-size: 1.25rem;
+}
+.a .table thead th {
+  color: #000;
+  font-weight: 500;
+  border-bottom: 1px solid #ddd;
+  background-color: #f5f5f5;
+  max-width:100px;
+  font-size:12px;
+}
+.a .table thead th.r2 {
+  font-weight: 400;
+}
+.a .table thead th.r3 {
+  font-weight: 400;
+  background-color: #fff;
+}
+.a .table-striped tbody tr:nth-of-type(odd),
+.a  .table-hover tbody tr:hover  {
+  background-color: rgba(0,0,0,.015);
+}
+.a .table td {
+  border-top-color: #f5f5f5;
+  max-width:100px;
+}
+footer {
+  background-color: #252525;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 0.75rem;
+}
+.landing footer {
+  background-color: transparent;
+  font-size: 0.75rem;
+  color: #252525;
+}
+footer p {
+  margin-bottom: 0;
+}
+.a .dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 0 0 4px 4px;
+}
+.a .dropdown-item {
+  padding: .75rem 1.5rem;
+}
+.a .dropdown-item.active, .a .dropdown-item:active {
+  color: #fff !important;
+}
+.a .navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.a .active a.nav-link {
+  border-bottom: 2px solid #f40009;
+}
+.user-links a {
+  color: darkgray;
+}
+.user-icon {
+  width: 32px;
+  height: 32px;
+  font-size: 2.5em;
+  line-height: 1.15;
+  color: darkgray;
+}
+.a .navbar .user-options {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.a .navbar .user-options .user-name { 
+  font-weight: 500;
+  color: #000;
+}
+.a a.nav-link {
+  color: #f40009;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 30px;
+  font-weight: 500;
+}
+.a .nav-item.dropdown>.dropdown-menu>.dropdown-item {
+  font-size: 0.75rem;
+  color: #f40009;
+}
+.cap-icon {
+  display: inline-block;
+  width: 175px;
+  height: 175px;
+  background: url("../images/coke-cap.png") no-repeat left top;
+  margin: auto;
+}
+.coke-wave {
+  background: url("../images/coke-wave.png") no-repeat center bottom;
+}
+a.opt-link {
+  font-size: 0.8rem;
+}
+.file-icon-xls {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../images/xls.png") no-repeat left top;
+}
+.navbar-brand {
+  width: 220px;
+  height: 45px;
+  background:url(../images/cocacola_logo.png) no-repeat left top;
+}
+.page-options {
+  padding: 0.5rem;
+  margin-top: 55px;
+}
+.page-options .row {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.page-options .row .col {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.page-options .page-title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.landing .page-options .page-title {
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px #8C8C8C;
+}
+.ic {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+}
+.ic.prev {
+  background-position: 0 0;
+}
+.ic.next {
+  background-position: -24px 0;
+}
+.ic.pdf {
+  background-position: -48px 0;
+}
+.ic.xls {
+  background-position: -72px 0;
+}
+#radioBtn .notActive{
+  background-color: #fff;
+}
+.bdr-r-dot {
+  border-right: #ccc 1px dotted;
+}
+.w-80-px {
+  width: 80px;
+}
+.w-100-px {
+  width: 100px;
+}
+.w-110-px {
+  width: 110px;
+}
+.w-125-px {
+  width: 125px;
+}
+.w-15 {
+  width: 15%;
+}
+.region {
+  background-color: #ddd;
+  text-transform: uppercase;
+  border-top-color: #bdbdbd !important;
+}
+.region-L2 {
+  background-color: #eee;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  .a .container-fluid {
+    overflow-x: auto;
+  }
+}
+@media screen and (min-width: 991px) {
+  .content-wrapper {
+   width: 780px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+}
+.caret-b {
+  float: right;
+  margin-top: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #6c757d transparent transparent transparent;
+}
+.caret-r {
+  float: right;
+  margin-top: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-color: transparent transparent transparent #6c757d;
+}
+.a .radio-grp {
+  width: 100%;
+}
+.a .radio-grp  a {
+  font-size: .875rem;
+  color: #252525;
+  width: 33.33%;
+}
+
+/***** Multi-level dropdown styles start *****/
+.view-filters {
+  margin-bottom: 0.875rem;
+}
+.view-filters .dropdown-submenu {
+  position: relative;
+}
+.filter-item a {
+  width: 100%;
+}
+.view-filters .dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.view-filters .dropdown-menu .dropdown-item,
+.view-filters .dropdown-submenu .dropdown-item {
+  padding:0;
+}
+.view-filters .dropdown-item a,
+.view-filters .dropdown-item.dropdown-submenu a {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  font-size: 14px;
+  color: #212529;
+}
+/***** Multi-level dropdown styles end *****/
+
+/*modified grid spacing*/
+.a .row.grid-layout {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.a .row.grid-layout .col-xs-12,
+.a .row.grid-layout .col-sm-6,
+.a .row.grid-layout .col-md-4,
+.a .row.grid-layout .col-lg-4 {
+  padding: 5px;
+}
+.block-item .card-body {
+  height: 250px;
+  padding: 0.85rem;
+}
+.block-item .card-header {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-bottom: #ddd 1px solid;
+}
+
+
+#loading{
+  position: absolute;
+  top:40%;
+  left:48%;
+  border-radius:5px;
+  text-align:center;
+  width:75px;
+  height:75px;
+  margin:0 auto;
+  z-index: 9999;
+  background: url('../images/spinner.gif') 50% 50% no-repeat rgba(0,0,0,0.85);
+}
+  .preload-overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 10001;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow-x: hidden;
+}
+.preload-content {
+  position: relative;
+  top: 25%;
+  width: 150px;
+  text-align: center;
+  margin: 30px auto;
+  min-height: 150px;
+  background: #333;
+  border-radius: 10px;
+}
+.preload-overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.preload-overlay a:hover, .preload-overlay a:focus {
+  color: #f1f1f1;
+}
+.preload-overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.loader,
+.loader:before,
+.loader:after {
+  background: #ccc;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: "";
+}
+.loader:before {
+  left: -1.5em;
+}
+.loader {
+  text-indent: -9999em;
+  margin: 4.5em auto;
+  position: relative;
+  font-size: 12px;
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.skin-d .loader:after {
+  left: 1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 #ccc;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em #ccc;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 #ccc;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em #ccc;
+    height: 5em;
+  }
+}

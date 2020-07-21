@@ -1,0 +1,57 @@
+.upload-input-control {
+    height: 20px;
+    width: 220px;
+}
+.upload-input-dev {
+    margin: -20px 0px 0px 82px;
+}
+.label-font-size {
+    font-size: 16px;
+}
+
+.remove-margin-input {
+    margin-top: 0px;
+}
+
+.button-custom {
+    margin:-26px 0px 0px 215px;; 
+}
+
+.input_ht_wd {
+    height: 35px !important;
+    width: 250px !important;
+}
+.label-dev-style {
+    padding: 10px 9px; 
+    border:none !important;
+
+}
+.glossaryLabel {
+    margin-top:15px!important;
+}
+
+.bglossaryLabel {
+    margin-top:27px!important;
+}
+
+.metriclabel {
+    margin-top:25px!important;
+}
+
+.input-dev-style {
+    padding: 16px 4px;
+}
+.input-file-msg {
+    text-align:center;
+    color:#b95656;
+	font-style: italic;
+}
+
+.validate-error-msg {
+    color: #ed3237;
+    font-size:20px
+}
+
+.validate-succ-msg {
+    font-size:20px
+}

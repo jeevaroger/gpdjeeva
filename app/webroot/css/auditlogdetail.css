@@ -1,0 +1,382 @@
+.top-line{
+        padding-left: 17% !important;
+        width: 82.9%!important;
+    } 
+    /*****************************************************************************************************************************************/
+    /*********************************************************************************Audit log detail page css start*************************/
+    /*****************************************************************************************************************************************/
+    .audit-log .top-line{
+        padding-left:17%;
+        width:83%;
+    }
+    .brands-div{
+        width:auto;
+        float:left;
+        margin:5px 20px 0px 50px;
+    }
+    .brands-div select{
+        width:150px;
+    }
+    .audit-log .middle-wrapper-content{
+        border-top:none;
+    }
+    .audit-accordian-wrapper{
+        width:100%;
+        height:auto;
+        float:left;
+    }
+    .accordian-inner-wrapper{
+        width:100%;
+        height:auto;
+        float:left;
+    }
+    .accordian-inner-lft{
+        width:215px;
+        height:40px;
+        float:left;
+        background-color:#eb2225;
+        padding:0px 0px 0px 20px;
+        text-align:left;
+        color:#FFF;
+        line-height:42px;
+        font-size:14px;
+    }
+    .accordian-inner-rht{
+        width:670px;
+        height:auto;
+        float:left;
+        text-align:left;
+        padding:0px;
+        /*border:1px solid #d6d6d6;*/
+    }
+    .accordian-inner-rht-extend{
+        width:1300px !important;
+        float:left;
+        display:none;
+    }
+    .accordian-inner-rht-other{
+        width:580px;
+        height:auto;
+        float:left;
+        text-align:left;
+        padding:0px;
+    }
+    .accordian-inner-rht h2{
+        background:url(../images/phase-2-down-arrow.png) no-repeat right 10px top 15px #cacaca;
+        color:#2f2f2f;
+        font-size:14px;
+        font-weight:100;
+        text-transform:uppercase;
+        height:40px;
+        line-height:38px;
+        margin:0px;
+        padding:0px;
+        display:block;
+        padding:0px 20px;
+
+    }
+    .expand-all-parent{
+        width:906px;
+        float:left;
+        text-align:right;
+        padding-bottom:10px;
+    }
+    a.expand-all, a.collapse-all{
+        text-decoration:none;
+        font-size:14px;
+        color:#2f2f2f;
+        font-weight:bold;
+    }
+    a.expand-all:hover, a.collapse-all:hover{
+        text-decoration:none;
+        font-size:14px;
+        color:#eb2225;
+        font-weight:bold;
+    }
+    .borderbottom{
+        border-bottom:1px solid #d6d6d6 !important;
+    }
+    .height20{
+        height:20px;
+    }
+    .accordian-inner-rht-active{
+        background:url(../images/phase-2-up-arrow.png) no-repeat right 10px top 15px #cacaca !important;	
+    }
+    .accordian-title-txt{
+        width:100%;
+        height:auto;
+        float:left;
+        margin-bottom:2px;
+        cursor:pointer;
+    }
+    .acc-wrapper{
+        margin-bottom:5px;
+        /*display:none;*/
+    }
+    .acc-wrapper, .acc-wrapper-inn{
+        width:670px;
+        float:left;
+        height:auto;
+    }
+    .acc-wrapper-inn-none{
+        display:none;
+    }
+    .acc-wrapper-inn{
+        border:1px solid #d6d6d6;
+        border-bottom:none;
+        box-sizing: border-box;
+        /*display:none;*/
+    }
+    .acc-wrapper-inn-other{
+        border:1px solid #d6d6d6;
+        border-left:none;
+        float:left;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .acc-wrapper-inn-change{
+        border:1px solid #d6d6d6;
+        border-left:none;
+        float:left;
+        width:190px;
+        text-align:center;
+        box-sizing: border-box;
+    }
+    .acc-wrapper-inn-change2{
+        border:1px solid #d6d6d6;
+        float:left;
+        width:240px;
+        text-align:center;
+        box-sizing: border-box;
+        padding: 10px 0;
+        font-size:14px;
+        color:#2f2f2f;
+        border-left:none;
+        border-bottom:none;
+    }
+    .acc-wrapper-inn-change3{
+        border:1px solid #d6d6d6;
+        float:left;
+        width:330px;
+        text-align:center;
+        box-sizing: border-box;
+        padding: 10px 0;
+        font-size:14px;
+        color:#2f2f2f;
+        border-left:none;
+        border-bottom:none;
+    }
+    .acc-row{
+        width:100%;
+        height:auto;
+        display:table;
+        background-color:#fff;
+        border-bottom:1px solid #d6d6d6;
+        font-size:14px;	
+        color:#2f2f2f;
+    }
+    .side-acc-row{
+        border-bottom: 1px solid #d6d6d6;
+        float: left;
+        height: auto;
+        padding: 10px 2%;
+        width: 96%;
+        font-size:14px;	
+        color:#2f2f2f;
+    }
+
+    .side-acc-row-title{
+        border-right: 1px solid #d6d6d6;
+        border-top: 1px solid #d6d6d6;
+        color: #2f2f2f;
+        float: left;
+        font-size: 14px;
+        height: auto;
+        padding: 10px 2%;
+        text-align: center;
+        width: 275px;
+    }
+    .side-acc-row:last-child{
+        border-bottom:none;
+    }
+    .side-acc-row-color{
+        border-bottom: 1px solid #d6d6d6;
+        float: left;
+        height: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .acc-row-col{
+        width:30%;
+        height:auto;
+        display:table-cell;
+        padding:10px;
+        border-right:1px solid #d6d6d6;	
+        text-align:center;
+        box-sizing:border-box;
+        vertical-align:middle;
+    }
+    .acc-row-col:first-child{
+        width:15%;
+    }
+    .acc-row-col:last-child{
+        width:25%;
+        border-right:none;
+        padding:5px 10px;
+    }
+    .acc-wrapper h3{
+        color:#2f2f2f;
+        font-size:14px;
+        font-weight:100;
+        text-transform:uppercase;
+        height:40px;
+        line-height:38px;
+        margin:0px;
+        padding:0px;
+        display:block;
+        padding:0px 20px;
+        background:url(../images/phase-2-down-arrow.png) no-repeat right 10px top 15px #e9e9e9;
+        cursor:pointer;
+    }
+    .acc-wrapper-active{
+        color:#2f2f2f;
+        font-size:14px;
+        font-weight:100;
+        text-transform:uppercase;
+        height:40px;
+        line-height:38px;
+        margin:0px;
+        padding:0px;
+        display:block;
+        padding:0px 20px;
+        background:url(../images/phase-2-up-arrow.png) no-repeat right 10px top 15px #e9e9e9;
+        cursor:pointer;
+    }
+    .yellow{
+        background-color: #f2e406;
+        display: block;
+        height: 25px;
+    }
+    .red{
+        background-color:#eb2326;
+        display: block;
+        height: 37px;
+    }
+    .margintop38{
+        margin-top:38px;
+    }
+    .YellowCell{
+        background-color: #f2e406;
+    }
+    .RedCell{
+        background-color:#eb2326;
+    }
+    .GreenCell{
+        background-color:green;
+    }
+    .GreyCell{
+        background-color:#e9e9e9;
+    }
+    /*copyMe*/
+.acc-row-col-new:first-child {
+  width: 7%;
+}
+.acc-row-col-new {
+  border-right: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  display: table-cell;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 13%;
+}
+.acc-row-col-new:nth-child(4) {
+  width: 11%;
+}
+.acc-row-col-new:last-child{
+    width: 38%;
+    border: medium none;
+    word-break: normal;
+}
+/***End CopyMe***/
+
+/***CopyMe***/
+.acc-wrapper-inn-new{
+	border:1px solid #d6d6d6;
+	border-bottom:none;
+	box-sizing: border-box;
+	/*display:none;*/
+}
+.acc-wrapper-inn-new {
+  float: left;
+  height: auto;
+  width: 84.7%;
+}
+/***End CopyMe***/
+/***CopyMe***/
+.side-acc-row-new{
+    /*rder-bottom: 1px solid #d6d6d6;*/
+    color: #2f2f2f;
+    float: left;
+    font-size: 14px;
+    height: auto;
+    padding: 10px 2%;
+    width: 96%;
+	text-align: justify;
+}
+/***End CopyMe***/
+.width9{
+     width: 9% !Important;
+}
+.width19{
+     width: 19% !Important;
+}
+.width30{
+     width: 30% !Important;
+}
+
+
+.acc-row-col.col1 {
+    width: 73px !important;
+}
+.acc-row-col.col2 {
+    width: 152px !important;
+}
+.acc-row-col.col3 {
+    width: 152px;
+}
+.acc-row-col.col4 {
+    width: 156px !important;
+}
+
+.acc-wrapper-inn-right {
+    max-width: 560px;
+    width: 510px;
+}
+.acc-row-col.col2.cst-col {
+    width: 95px !important;
+}
+.acc-row-col.col2.cst-col-new {
+  width: 146px !important;
+}
+.acc-row-col-new.cst-width {
+  width: 392px !important;
+}
+@-moz-document url-prefix() { 
+  .acc-wrapper, .acc-wrapper-inn {
+    width: 668px;
+}
+.custom-width{
+ width: 1046px !important;
+}
+.custom-width-one{
+ width: 1118px !important;
+}
+.custom-width-two{
+ width: 795px !important;
+}
+.custom-width-three{
+ width: 921px !important;
+}
+}

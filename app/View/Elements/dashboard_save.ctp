@@ -1,0 +1,23 @@
+<div>
+    <input type="hidden" name="performance_ind_status" id="performance_ind_status" value="0"/>
+    <input type="hidden" name="editMetrices[Media2][media2_id]" value="<?php echo (!empty($metricesData['media2']['Media2']['media2_id']) ? $metricesData['media2']['Media2']['media2_id'] : 0) ?>">
+    <input type="hidden" name="editMetrices[Media2][value23]" id="hd_core_sparking_1" value="<?php echo (!empty($metricesData['media2']['Media2']['value23']) ? CakeNumber::precision($metricesData['media2']['Media2']['value23'], 15) : 'NA') ?>">
+    <input type="hidden" name="editMetrices[Media2][value24]" id="hd_core_sparking_2" value="<?php echo (!empty($metricesData['media2']['Media2']['value24']) ? CakeNumber::precision($metricesData['media2']['Media2']['value24'], 15) : 'NA') ?>">
+    <?php $media2_value23_value24_cmp = (isset($metricesData['media2']['Media2']['value23_value24_cmp']) ? ($metricesData['media2']['Media2']['value23_value24_cmp'] ) : null); ?>
+    <input type="hidden" name="editMetrices[Media2][value23_value24_cmp]" id="hd_core_sparking_cal" value="<?php echo (!is_null($media2_value23_value24_cmp)) ? number_format($media2_value23_value24_cmp, 1, '.', ',') : 'NA'; ?>">
+    <input type="hidden" name="editMetrices[Media2][value26]" id="hd_over_Core_NARTD_1" value="<?php echo (!empty($metricesData['media2']['Media2']['value26']) ? CakeNumber::precision($metricesData['media2']['Media2']['value26'], 15) : 'NA'); ?>">
+    <input type="hidden" name="editMetrices[Media2][value27]" id="hd_over_Core_NARTD_2" value="<?php echo (!empty($metricesData['media2']['Media2']['value27']) ? CakeNumber::precision($metricesData['media2']['Media2']['value27'], 15) : 'NA'); ?>">
+    <?php $media2_value26_value27_cmp = isset($metricesData['media2']['Media2']['value26_value27_cmp']) ? ($metricesData['media2']['Media2']['value26_value27_cmp'] ) : null; ?>
+    <input type="hidden" name="editMetrices[Media2][value26_value27_cmp]" id="hd_over_Core_NARTD_cal" value="<?php echo (!is_null($media2_value26_value27_cmp)) ? number_format($media2_value26_value27_cmp, 1, '.', ',') : 'NA'; ?>">
+    <input type="hidden" name="editMetrices[Media2][value3_value4_cmp]" id="hd_Sys_TV_Media_Inv_2" value="<?php echo (isset($metricesData['media2']['Media2']['value3_value4_cmp']) ? CakeNumber::precision($metricesData['media2']['Media2']['value3_value4_cmp'], 15) : 'NA'); ?>">
+    <input type="hidden" name="editMetrices[Media2][value8_value9_cmp]" id="hd_Sys_Dig_Media_Inv_2" value="<?php echo (isset($metricesData['media2']['Media2']['value8_value9_cmp']) ? CakeNumber::precision($metricesData['media2']['Media2']['value8_value9_cmp'], 15) : 'NA') ?>">
+    <input type="hidden" name="editMetrices[Media2][value11]" id="hd_TV_Media_Ind_Inflation_1" value="<?php echo (isset($metricesData['media2']['Media2']['value11']) ? CakeNumber::precision($metricesData['media2']['Media2']['value11'], 15) : 'NA'); ?>">
+    <input type="hidden" name="editMetrices[Media2][value12]" id="hd_TV_Media_Ind_Inflation_2" value="<?php echo (isset($metricesData['media2']['Media2']['value12']) ? CakeNumber::precision($metricesData['media2']['Media2']['value12'], 15) : 'NA'); ?>">
+    <input type="hidden" name="editMetrices[Macro][macro_id]" id="hd_macro_id" value="<?php echo (isset($metricesData['macro']['Macro']['macro_id']) ? ($metricesData['macro']['Macro']['macro_id']) : 0); ?>">
+    <input type="hidden" name="editMetrices[Macro][value7]" id="hd_Unemployment_2" value="<?php echo (isset($metricesData['macro']['Macro']['value7']) ? CakeNumber::precision($metricesData['macro']['Macro']['value7'], 15) : 'NA'); ?>">
+    <input type="hidden" name="indicator[performance_metrics]" id="hd_performance_metrics" value="<?php echo $statusPerformanceIndiArray['Performance_Metrics'] ?>">
+    <input type="hidden" name="indicator[commercial_execution]" id="hd_commercial_execution"  value="<?php echo $statusPerformanceIndiArray['Commercial_Execution'] ?>">
+    <input type="hidden" name="indicator[quality_of_marketing]" id="hd_quality_of_marketing" value="<?php echo $statusPerformanceIndiArray['Quality_of_marketing'] ?>">
+    <input type="hidden" name="indicator[quantity_of_marketing]" id="hd_quantity_of_marketing" value="<?php echo $statusPerformanceIndiArray['Quantity_of_marketing'] ?>">
+    <input type="hidden" name="indicator[external_environment]" id="hd_external_environment" value="<?php echo $statusPerformanceIndiArray['External_environment'] ?>">
+</div>

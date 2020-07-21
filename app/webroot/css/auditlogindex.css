@@ -1,0 +1,124 @@
+.top-line{
+    padding-left: 0% !important;
+    width: 100%!important;
+}    
+.rTable {
+    display: table !important;
+    margin: 0 0% !important;
+    width: 100% !important;
+}
+.rtable-scroll{
+	/*width:98%;*/
+	height:auto;
+	margin-left:10px;
+        margin-right:10px;
+	/*overflow:hidden;
+	overflow-x:scroll;*/
+}
+.rTableHead{
+	font-size:12px;
+}
+.view-btn.disable{
+    background-color: #a2a2a2;
+}
+.view-btn {
+    background-color: #7d7d7d;
+    border: medium none;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 30px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    cursor:pointer;
+    text-decoration: none;
+}
+.rTableCell{
+	font-size:14px!important;
+	vertical-align:middle;
+        padding: 10px 5px!important;
+}
+.log-view-box {
+	background-color: #fff;
+	bottom: 0;
+	height: auto;
+	left: 0;
+	margin: auto;
+	height: 557px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 650px;
+	z-index: 101;
+}
+.input-txt{
+	border:1px solid #d6d6d6;
+	display:block;
+	clear:both;
+    height: 40px;
+    padding: 0 10px;
+}
+
+/***Namrata****/
+.search-box-cst {
+  border: medium none;
+  height: 40px;
+  margin-left: 37px;
+  padding: 0 10px;
+  width: 250px;
+  background: url("../images/black-arrow-down.png") right center;
+  background-repeat: no-repeat;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+}
+.rTableHead-custom {
+  background-color: #f4292d;
+  border: 1px solid #999999;
+  color: #fff;
+  display: table-cell;
+  font-size: 13px;
+  padding: 5px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.check-img {
+  margin: 0 0 0 40% !important;
+}
+.center-table-content {
+  text-align: center;
+}
+/* added for audit log pagination */
+ul.pagination li.active > a{
+    background: #f4292d !important;
+    border: #f4292d !important;
+    color: #fff !important;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        left: 30px!important;
+    }
+ul.multiselect-container{
+    z-index:99;
+}
+button.multiselect{
+    height: 38px!important;
+}
+.view-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+#main-wrapper{
+     width: 100%!important;
+}
+#wrapper{
+     margin-left: 1%!important;
+     width: 98%!important;
+}
+.submenu-wrapper-mid {
+	padding-left: 298px;
+}
